@@ -24,3 +24,4 @@ app/[route]+api.ts
 
 http://localhost:8081/hello
 http://localhost:8081/api/comments      << can test with Bruno (for GET|POST) or website (for GET)
+http://localhost:8081/api/comments/1    << Bruno (GET), will need to restart server if you have already run once (deleted it in memory), or choose another id.

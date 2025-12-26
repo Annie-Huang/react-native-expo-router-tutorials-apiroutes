@@ -1,0 +1,13 @@
+import { comments } from '../../../data/comments.ts';
+
+export async function GET(_req: Request, { id }: Record<string, string>) {
+  const comment = comments.find((comment) => comment.id === parseInt(id));
+
+  console.log('comment', comment);
+
+  if (!comment) {
+    return Response.json({ error: 'Comment not found' }, { status: 404 });
+  }
+
+  return Response.json(comment);
+}
