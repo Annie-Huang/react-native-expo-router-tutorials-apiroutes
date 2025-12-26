@@ -25,7 +25,7 @@ app/[route]+api.ts
 http://localhost:8081/hello
 http://localhost:8081/api/comments      << can test with Bruno (for GET|POST) or website (for GET)
 
-http://localhost:8081/api/comments/1    << Bruno (GET|PATCH), will need to restart server if you have already run delete once (deleted it in memory), or choose another id.
+http://localhost:8081/api/comments/1    << Bruno (GET|PATCH|DELETE), will need to restart server if you have already run delete once (deleted it in memory), or choose another id.
     Request body if it's patch:
     {
       "text": "Updated comment"
