@@ -23,4 +23,4 @@ app/[route]+api.ts
 
 
 http://localhost:8081/hello
-http://localhost:8081/api/comments
+http://localhost:8081/api/comments      << can test with Bruno (for GET|POST) or website (for GET)
