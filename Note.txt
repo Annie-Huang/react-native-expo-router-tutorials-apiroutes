@@ -11,3 +11,11 @@ PS C:\react> npx create-expo-app@latest react-native-expo-router-tutorials-apiro
 
 PS C:\react\react-native-expo-router-tutorials-apiroutes> npm run reset-project
 Do you want to move existing files to /app-example instead of deleting them? (Y/n): n
+
+
+
+API Routers let us build RESTful endpoints with complete control over the response.
+Think of it like building a Node + Express app.
+
+All api route file must put inside app with the name:
+app/[route]+api.ts
