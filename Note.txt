@@ -1,0 +1,13 @@
+Expo Router Tutorial
+(Expo Router - 15 - API Routes)
+(https://www.youtube.com/playlist?list=PLC3y8-rFHvwgVmqbtQkPDxkvDf6w5_eGA)
+
+https://github.com/gopinav/Expo-Router-Tutorials/tree/main/APIRoutes
+https://github.com/Annie-Huang/react-native-expo-router-tutorials-apiroutes
+
+-------------------------------------------------------------------------------------------------
+
+PS C:\react> npx create-expo-app@latest react-native-expo-router-tutorials-apiroutes
+
+PS C:\react\react-native-expo-router-tutorials-apiroutes> npm run reset-project
+Do you want to move existing files to /app-example instead of deleting them? (Y/n): n
