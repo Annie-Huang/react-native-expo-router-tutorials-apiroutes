@@ -19,3 +19,8 @@ Think of it like building a Node + Express app.
 
 All api route file must put inside app with the name:
 app/[route]+api.ts
+
+
+
+http://localhost:8081/hello
+http://localhost:8081/api/comments
